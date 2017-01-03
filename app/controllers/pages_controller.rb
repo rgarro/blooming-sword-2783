@@ -1,20 +1,15 @@
-require 'gdata'
+#require 'gdata'
 class PagesController < ApplicationController
 
   # GET /pages/homepage
   # GET /pages/homepage.json
   def homepage
-    
+
   end
   # GET /pages
   # GET /pages.json
   def index
-    @pages = Page.all
-
-    respond_to do |format|
-      format.html # index.html.erb
-      format.json { render json: @pages }
-    end
+    
   end
 
   # GET /pages/1
