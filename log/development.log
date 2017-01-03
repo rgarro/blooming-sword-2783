@@ -395,3 +395,22 @@ Started GET "/assets/lemon_bonsai_img/bodyBack.gif" for ::1 at 2017-01-03 13:12:
 
 
 Started GET "/assets/lemon_bonsai_img/brandBg.gif" for ::1 at 2017-01-03 13:12:18 -0600
+DEPRECATION WARNING: You didn't set `secret_key_base`. Read the upgrade documentation to learn more about this new config option. (called from service at /Users/rolando/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138)
+
+
+Started GET "/" for ::1 at 2017-01-03 16:58:31 -0600
+Processing by PagesController#homepage as HTML
+  Rendered pages/homepage.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 599ms (Views: 599.1ms)
+
+
+Started GET "/assets/lemon_bonsai.self-613d015b60bb7994da8e34cd08744abe9c9e7381885b6601dd5430fb35bd18e1.css?body=1" for ::1 at 2017-01-03 16:58:32 -0600
+
+
+Started GET "/assets/lemon_bonsai_js/producer.self-421383e2f6a31fd988268f874e46a098acf859c4a820ef11a8d96ea4d066b923.js?body=1" for ::1 at 2017-01-03 16:58:32 -0600
+
+
+Started GET "/assets/lemon_bonsai_img/bodyBack.gif" for ::1 at 2017-01-03 16:58:32 -0600
+
+
+Started GET "/assets/lemon_bonsai_img/brandBg.gif" for ::1 at 2017-01-03 16:58:32 -0600

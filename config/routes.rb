@@ -1,30 +1,9 @@
 RomajiSan::Application.routes.draw do
- 
 
 
 
-  get "gmap/showlist"
 
-  get "gmap/addplace"
 
-  #KITCHEN WALKWAYS
-  get "gkitchen/gingredients/index" 
-  get "gkitchen/gingredients/new"
-  get "gkitchen/gingredients/show"
-  get "gkitchen/gingredients/edit"
-  post "gkitchen/gingredients/create"
-  get "gkitchen/gingredients/update"
-  get "gkitchen/gingredients/destroy"
-  get "gkitchen/login"
-  post "gkitchen/checklogin"
-  get "gkitchen/logout"
-  get "gkitchen/home"
-  get "gkitchen/homeb"
-  get "gkitchen/gingredients"
-  get "gkitchen/gnoodlerecipes"
-  #services
-  get "gkitchen/services/ingredientslist"
-  
   resources :pages
 
   # The priority is based upon order of creation:
